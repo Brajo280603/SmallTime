@@ -1,0 +1,67 @@
+.col{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+@media (max-width:576px) {
+    .col{
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        
+    }
+    .card{
+        max-width: 60vw;
+        /* border-radius: 30px; */
+       
+    }
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+.card{
+    max-width: 20rem;
+    border-radius: 20px;
+    filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.356));
+    
+
+    
+   
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    max-width: fit-content;
+    align-self: center;
+    border-radius: 50px;
+    margin-top: auto;
+}
+
+.gamelogodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin-bottom: 1rem;
+}
+
+.gamelogos{
+    max-height: 100%;
+    width: auto;
+    border-radius: 15px;
+    justify-self: center;
+ 
+    align-self: center;
+}
+img{
+    /* mix-blend-mode: difference; */
+}
